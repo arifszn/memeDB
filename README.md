@@ -1,4 +1,4 @@
-license<p align="center">
+<p align="center">
     <a href="https://memedb.netlify.app" target="_blank"><img src="https://memedb.netlify.app/logo.png" alt="memeDB" title="memeDB" width="80"></a>
 </p>
 <h1 align="center">memeDB</h1>
