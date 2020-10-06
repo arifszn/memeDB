@@ -35,11 +35,14 @@ const Page = (props) => {
 
     //mounting
     useEffect(() => {
+        let postType = 'meme';
+
         if (props.location.pathname === '/wallpaper') {
+            postType = 'wallpaper';
             setType('wallpaper');
         }
 
-        fetchPostsOnce();
+        fetchPostsOnce(postType);
         return () => {
             // un-mounting
             signal.cancel('Api is being canceled');
@@ -73,7 +76,7 @@ const Page = (props) => {
     /**
      * fetch posts when page loads
      */
-    const fetchPostsOnce = async () => {
+    const fetchPostsOnce = async (postType) => {
         try {
             setIsPageLoading(true);
 
@@ -82,7 +85,7 @@ const Page = (props) => {
                 cancelToken: signal.token,
             }); */
 
-            var result = await redditImageFetcher.fetch({type: type, total: 8});
+            var result = await redditImageFetcher.fetch({type: postType, total: 8});
             if (typeof result !== 'undefined') {
                 setPosts(result);
                 setIsImageViewerOpen(false);
