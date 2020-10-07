@@ -307,6 +307,7 @@ const Page = (props) => {
                                             Loading<i className="fas fa-spinner fa-spin ml-2"></i>
                                         </React.Fragment>
                                     }
+                                    width={"120px"}
                                     disabled={isLoading}
                                     onClick={() =>  loadMoreOnClick() }
                                 />
