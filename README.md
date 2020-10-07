@@ -13,7 +13,6 @@
 
 Auto fetched memes and wallpapers viewer made with React. Showcasing the [reddit-image-fetcher](https://github.com/arifszn/reddit-image-fetcher/) package in action.
 
-
 ## Site
 
 [https://memedb.netlify.app](https://memedb.netlify.app)
