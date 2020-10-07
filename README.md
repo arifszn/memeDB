@@ -37,10 +37,19 @@ Auto fetched memes and wallpapers viewer made with React. Showcasing the [reddit
 
 # Installation
 
-- Run ```git clone https://github.com/arifszn/memeDB.git```
-- Run ```cd memeDB```
-- Run ```npm install```
-- Run ```npm start```
+```bash
+# Clone this repository
+$ git clone https://github.com/arifszn/memeDB.git
+
+# Go into the repository
+$ cd memeDB
+
+# Install dependencies
+$ npm install
+
+#Start's development server
+$ npm start
+```
 
 ## Support
 
