@@ -295,7 +295,7 @@ const Page = (props) => {
                             <div className="text-center p-3">
                                 <ReactiveButton
                                     buttonState={!isLoading ? 'idle' : 'loading'}
-                                    color="green"
+                                    color="teal"
                                     size="normal"
                                     idleText={
                                         <React.Fragment>
