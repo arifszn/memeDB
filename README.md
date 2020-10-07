@@ -18,6 +18,23 @@ Auto fetched memes and wallpapers viewer made with React. Showcasing the [reddit
 
 [https://memedb.netlify.app](https://memedb.netlify.app)
 
+## Screenshots ##
+![alt text](https://raw.githubusercontent.com/arifszn/memeDB/main/public/assets/images/preview.png)
+<br />
+<br />
+
+***
+
+![alt text](https://raw.githubusercontent.com/arifszn/memeDB/main/public/assets/images/preview2.png)
+<br />
+<br />
+
+***
+
+![alt text](https://raw.githubusercontent.com/arifszn/memeDB/main/public/assets/images/preview3.png)
+<br />
+<br />
+
 # Installation
 
 - Run ```git clone https://github.com/arifszn/memeDB.git```
