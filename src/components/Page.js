@@ -87,7 +87,6 @@ const Page = (props) => {
 
             var result = await redditImageFetcher.fetch({type: postType, total: 8});
             if (typeof result !== 'undefined') {
-                console.log(result);
                 setPosts(result);
                 setIsImageViewerOpen(false);
                 setIsPageLoading(false);
