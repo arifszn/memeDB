@@ -34,7 +34,7 @@ Auto fetched memes and wallpapers viewer made with React. Showcasing the [reddit
 <br />
 <br />
 
-# Installation
+## Installation
 
 ```bash
 # Clone this repository
@@ -52,7 +52,7 @@ $ npm start
 
 ## Support
 
-Show your ❤️ and support by giving a ⭐ on <a href="https://github.com/arifszn/memeDB">Github</a>.
+Show your ❤️ and support by giving a ⭐.
 
 ## License
 
